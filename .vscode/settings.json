@@ -1,0 +1,17 @@
+{
+    "eslint.codeAction.disableRuleComment": {
+        "enable": true,
+        "location": "separateLine"
+    },
+    "eslint.enable": true,
+    "eslint.run": "onType",
+    "eslint.validate": [
+        {
+            "autoFix": true,
+            "language": "typescript"
+        }
+    ],
+    "typescript.implementationsCodeLens.enabled": true,
+    "typescript.referencesCodeLens.enabled": true,
+    "debug.node.autoAttach": "on"
+}

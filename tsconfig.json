@@ -1,0 +1,43 @@
+// {
+//     "compilerOptions": {
+//       "preserveConstEnums": true,
+//       // "module":"commonjs",
+//       "strictNullChecks": true,
+//       "allowSyntheticDefaultImports": true,
+//       "sourceMap": true,
+//       "allowJs": true,
+//       "target": "es5",
+//       "outDir": ".build",
+//       "moduleResolution": "node",
+//       "lib": ["es2015"],
+//       "emitDecoratorMetadata": true,
+//       "experimentalDecorators": true,
+//       //  "esModuleInterop": true,
+//       "rootDir": "./",
+//       // "types":["node"],
+//     }
+//   }
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "preserveConstEnums": true,
+    "strictNullChecks": true,
+    "sourceMap": true,
+    "allowJs": true,
+    "target": "es6",
+    "outDir": ".build",
+    "moduleResolution": "node",
+    "lib": [
+      "es2017"
+    ],
+    "experimentalDecorators": true,
+    "rootDir": "./",
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ],
+}

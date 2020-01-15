@@ -1,0 +1,29 @@
+{
+	"env": {
+		"es6": true
+	},
+	"extends": [
+		"eslint:recommended",
+		"plugin:@typescript-eslint/eslint-recommended",
+		"plugin:@typescript-eslint/recommended"
+		// Turning this off, vscode eslint starts its server on open, new files added require a restart
+		// "plugin:@typescript-eslint/recommended-requiring-type-checking"
+	],
+	"globals": {
+		"Atomics": "readonly",
+		"SharedArrayBuffer": "readonly"
+	},
+	"parser": "@typescript-eslint/parser",
+	"parserOptions": {
+		"ecmaVersion": 2018,
+		"sourceType": "module"
+		// "project": "./.eslint-tsconfig.json"
+	},
+	"plugins": [
+		"@typescript-eslint"
+	],
+	"rules": {
+		"@typescript-eslint/array-type": "error",
+		"no-throw-literal": "error"
+	}
+}
